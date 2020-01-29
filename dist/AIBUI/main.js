@@ -2374,7 +2374,7 @@ __webpack_require__.r(__webpack_exports__);
 var AddclientService = /** @class */ (function () {
     function AddclientService(_http) {
         this._http = _http;
-        this.baseUrl = "http://localhost:3200/";
+        this.baseUrl = "http://wdvra97a0184.wellsfargo.com:9003/";
     }
     AddclientService.prototype.searchSalesforceClients = function (data) {
         return this._http.get(this.baseUrl + 'getSalesforceClients');
@@ -2414,7 +2414,7 @@ __webpack_require__.r(__webpack_exports__);
 var CredittransactionService = /** @class */ (function () {
     function CredittransactionService(_http) {
         this._http = _http;
-        this.baseUrl = "http://localhost:3200/";
+        this.baseUrl = "http://wdvra97a0184.wellsfargo.com:9003/";
     }
     CredittransactionService.prototype.getIndustryDetails = function () {
         return this._http.get(this.baseUrl + 'getIndustry');
@@ -2473,7 +2473,7 @@ __webpack_require__.r(__webpack_exports__);
 var LoginService = /** @class */ (function () {
     function LoginService(_http) {
         this._http = _http;
-        this.baseUrl = "http://localhost:3200/";
+        this.baseUrl = "http://wdvra97a0184.wellsfargo.com:9003/";
     }
     LoginService.prototype.login = function (username, password) {
         return this._http.get(_config__WEBPACK_IMPORTED_MODULE_3__["baseJsonServerUrl"] + 'getUserDetails?UserName=' + username + '&Password=' + password);
@@ -2512,7 +2512,7 @@ __webpack_require__.r(__webpack_exports__);
 var PitchcreationService = /** @class */ (function () {
     function PitchcreationService(_http) {
         this._http = _http;
-        this.baseUrl = "http://localhost:3200/";
+        this.baseUrl = "http://wdvra97a0184.wellsfargo.com:9003/";
     }
     PitchcreationService.prototype.getIndustryDetails = function () {
         return this._http.get(this.baseUrl + 'getIndustry');
